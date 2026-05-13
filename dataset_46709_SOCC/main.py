@@ -1,9 +1,9 @@
 import time
 import numpy as np
-from dataset_46709_SOCC.src.loader import load_arff, process_data
-from dataset_46709_SOCC.src.metrics import k_fold_split, calculate_metrics
-from dataset_46709_SOCC.src.knn import KNN
-from dataset_46709_SOCC.src.bayes import NaiveBayes
+from src.loader import load_arff, process_data
+from src.metrics import k_fold_split, calculate_metrics
+from src.knn import KNN
+from src.bayes import NaiveBayes
 
 def simple_bag_of_words(textos, vocab_size=15):
     """
